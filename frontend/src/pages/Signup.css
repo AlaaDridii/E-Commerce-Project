@@ -1,0 +1,30 @@
+.signup__image--container {
+    background-image: url(https://lamaisonjaune-lefilm.fr/wp-content/uploads/2019/09/Quels-sont-les-avantages-et-les-inconv%C3%A9nients-du-high-tech-dans-la-vie-quotidienne.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(https://cdn.futura-sciences.com/cdn-cgi/image/width=1520,quality=50,format=auto/sources/images/2-produits-high-tech-reconditionnes.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
+
+/* home https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png sale */
